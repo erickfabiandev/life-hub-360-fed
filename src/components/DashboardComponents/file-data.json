@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "1",
+    "name": "Presentation",
+    "size": 850,
+    "type": "PPT",
+    "uploadDate": "2023-07-10",
+    "description": "Client presentation",
+    "owner": "Grace Miller",
+    "location": "Shared drive"
+  },
+  {
+    "_id": "2",
+    "name": "Invoice",
+    "size": 400,
+    "type": "PDF",
+    "uploadDate": "2023-08-15",
+    "description": "Monthly invoice",
+    "owner": "Daniel Wilson",
+    "location": "Billing folder"
+  },
+  {
+    "_id": "3",
+    "name": "Document University",
+    "size": 3200,
+    "type": "XLS",
+    "uploadDate": "2023-09-20",
+    "description": "Family vacation photos",
+    "owner": "Olivia Lee",
+    "location": "Personal folder"
+  },
+  {
+    "_id": "4",
+    "name": "Report Document",
+    "size": 1700,
+    "type": "DOCX",
+    "uploadDate": "2023-10-05",
+    "description": "Quarterly report",
+    "owner": "Michael Brown",
+    "location": "Team drive"
+  },
+  {
+    "_id": "5",
+    "name": "Contract Agreement",
+    "size": 900,
+    "type": "PDF",
+    "uploadDate": "2023-11-15",
+    "description": "Business contract",
+    "owner": "Sophia Johnson",
+    "location": "Contracts folder"
+  },
+  {
+    "_id": "6",
+    "name": "Presentation Slides",
+    "size": 1200,
+    "type": "PPT",
+    "uploadDate": "2023-12-10",
+    "description": "Training slides",
+    "owner": "Lucas Smith",
+    "location": "Training drive"
+  },
+  {
+    "_id": "7",
+    "name": "Receipts",
+    "size": 600,
+    "type": "CSV",
+    "uploadDate": "2024-01-05",
+    "description": "Expense receipts",
+    "owner": "Emma Davis",
+    "location": "Receipts folder"
+  },
+  {
+    "_id": "8",
+    "name": "Legal Documents",
+    "size": 1400,
+    "type": "PDF",
+    "uploadDate": "2024-02-20",
+    "description": "Legal contracts",
+    "owner": "Benjamin Johnson",
+    "location": "Legal folder"
+  },
+  {
+    "_id": "9",
+    "name": "Meeting Notes",
+    "size": 500,
+    "type": "DOCX",
+    "uploadDate": "2024-03-15",
+    "description": "Meeting minutes",
+    "owner": "Ava Wilson",
+    "location": "Meetings drive"
+  },
+  {
+    "_id": "10",
+    "name": "Marketing Plan",
+    "size": 1100,
+    "type": "PDF",
+    "uploadDate": "2024-04-10",
+    "description": "Marketing strategy",
+    "owner": "Mia Taylor",
+    "location": "Marketing folder"
+  }
+]

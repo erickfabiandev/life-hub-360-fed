@@ -1,0 +1,152 @@
+[
+  {
+    "photoName": "Photo 1",
+    "size": "2.3 MB",
+    "album": "Vacaciones",
+    "dateUploaded": "2023-04-15",
+    "description": "Una hermosa puesta de sol en la playa.",
+    "location": "Playa tropical",
+    "resolution": "5472x3648",
+    "tags": [
+      "playa",
+      "puesta de sol",
+      "vacaciones"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872791/cld-sample-5.jpg"
+  },
+  {
+    "photoName": "Photo 2",
+    "size": "1.8 MB",
+    "album": "Familia",
+    "dateUploaded": "2023-04-12",
+    "description": "Reunión familiar en el parque.",
+    "location": "Parque local",
+    "resolution": "6016x4016",
+    "tags": [
+      "familia",
+      "parque",
+      "reunión"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872791/cld-sample-4.jpg"
+  },
+  {
+    "photoName": "Photo 3",
+    "size": "3.5 MB",
+    "album": "Naturaleza",
+    "dateUploaded": "2023-04-10",
+    "description": "Cascada en medio del bosque.",
+    "location": "Bosque exuberante",
+    "resolution": "9504x6336",
+    "tags": [
+      "naturaleza",
+      "cascada",
+      "bosque"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872790/cld-sample-3.jpg"
+  },
+  {
+    "photoName": "Photo 4",
+    "size": "1.2 MB",
+    "album": "Amigos",
+    "dateUploaded": "2023-04-08",
+    "description": "Noche de diversión en la ciudad.",
+    "location": "Centro de la ciudad",
+    "resolution": "6240x4160",
+    "tags": [
+      "amigos",
+      "ciudad",
+      "diversión"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872790/cld-sample-2.jpg"
+  },
+  {
+    "photoName": "Photo 5",
+    "size": "2.9 MB",
+    "album": "Mascotas",
+    "dateUploaded": "2023-04-05",
+    "description": "Mi adorable perro en el parque.",
+    "location": "Parque canino",
+    "resolution": "8256x5504",
+    "tags": [
+      "mascotas",
+      "perro",
+      "parque"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872789/cld-sample.jpg"
+  },
+  {
+    "photoName": "Photo 6",
+    "size": "1.6 MB",
+    "album": "Viajes",
+    "dateUploaded": "2023-04-02",
+    "description": "Recuerdos de un emocionante viaje.",
+    "location": "Destino exótico",
+    "resolution": "6000x4000",
+    "tags": [
+      "viajes",
+      "aventura",
+      "exótico"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872754/sample.jpg"
+  },
+  {
+    "photoName": "Photo 7",
+    "size": "2.7 MB",
+    "album": "Fiestas",
+    "dateUploaded": "2023-03-30",
+    "description": "Celebrando el Año Nuevo con amigos.",
+    "location": "Casa de amigos",
+    "resolution": "8192x5464",
+    "tags": [
+      "fiestas",
+      "Año Nuevo",
+      "amigos"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872790/cld-sample-2.jpg"
+  },
+  {
+    "photoName": "Photo 8",
+    "size": "1.4 MB",
+    "album": "Arte",
+    "dateUploaded": "2023-03-27",
+    "description": "Pintura en acuarela de un paisaje.",
+    "location": "Estudio de arte",
+    "resolution": "4000x3000",
+    "tags": [
+      "arte",
+      "pintura",
+      "acuarela"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695969971/background/crea-una-imagen-que-simbolice-una-aplicacion-llama-upscaled_w1czv3.png"
+  },
+  {
+    "photoName": "Photo 9",
+    "size": "3.2 MB",
+    "album": "Deportes",
+    "dateUploaded": "2023-03-25",
+    "description": "Partido de fútbol en el estadio.",
+    "location": "Estadio local",
+    "resolution": "6720x4480",
+    "tags": [
+      "deportes",
+      "fútbol",
+      "estadio"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1695872790/cld-sample-3.jpg"
+  },
+  {
+    "photoName": "Photo 10",
+    "size": "2.1 MB",
+    "album": "Comida",
+    "dateUploaded": "2023-03-25",
+    "description": "Partido de fútbol en el estadio.",
+    "location": "Estadio local",
+    "resolution": "6720x4480",
+    "tags": [
+      "deportes",
+      "fútbol",
+      "estadio"
+    ],
+    "url": "https://res.cloudinary.com/ds8a1x14x/image/upload/v1696331060/users/oeyzskl0h0cg476pub7p.gif"
+  }
+]

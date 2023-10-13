@@ -1,0 +1,156 @@
+@use './variables.modules.scss';
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: variables.$poppins;
+  padding: 1rem;
+  font-size: 16px;
+  gap: 1rem;
+  backdrop-filter: blur(5px);
+  background: hsla(0, 0%, 100%, .73);
+  height: 100vh;
+
+  &_logo {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+  }
+
+  a {
+    color: variables.$color-blue-2;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    font-family: variables.$sacramento;
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+
+    &_image_container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+
+      .image {
+        border: 2px solid variables.$color-blue;
+        border-radius: 50%;
+        width: 100px;
+        height: 110px;
+        padding: 0.1rem;
+        color: variables.$color-blue;
+      }
+
+      .upload {
+        display: flex;
+        gap: 5px;
+        color: variables.$color-blue;
+        font-family: variables.$poppins;
+        align-items: center;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .icon {
+      position: absolute;
+      width: auto;
+      left: 0.5rem;
+      width: auto;
+      color: variables.$color-gray-ligth;
+      z-index: 100;
+    }
+
+    input {
+      font-family: variables.$poppins;
+      border: 1px solid variables.$color-white-ligth;
+      width: 100%;
+      padding: 1rem 2rem;
+      border-radius: 20px;
+
+      &:hover {
+        border-color: variables.$color-blue;
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: variables.$color-blue;
+    border: 1px solid variables.$color-white-ligth;
+    color: variables.$color-white;
+    font-family: variables.$poppins;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #2E86C1;
+    }
+  }
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/ds8a1x14x/image/upload/v1695969971/background/crea-una-imagen-que-simbolice-una-aplicacion-llama-upscaled_w1czv3.png');
+
+  &_panel {
+    margin: 1rem;
+    border-radius: 20px;
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  .login {
+    flex-direction: row;
+
+    &_panel {
+      display: block;
+      width: 60%;
+    }
+  }
+
+  .login_form {
+    width: 40%;
+    padding-inline: 7rem;
+    height: auto;
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+  }
+}

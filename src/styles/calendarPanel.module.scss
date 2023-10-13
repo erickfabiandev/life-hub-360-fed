@@ -1,0 +1,13 @@
+.calendarPanel {
+  width: max-content;
+  padding: 2rem;
+  height: 500px;
+}
+
+@media (min-width:1024px) {
+  .calendarPanel {
+    width: auto;
+    height: 600px;
+  }
+
+}

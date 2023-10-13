@@ -1,0 +1,162 @@
+[
+  {
+    "_id": "1",
+    "transactionType": "INCOME",
+    "amount": 500.0,
+    "description": "Sale of Product A",
+    "date": "2023-01-10",
+    "category": "Sales"
+  },
+  {
+    "_id": "2",
+    "transactionType": "OUTCOME",
+    "amount": 300.0,
+    "description": "Bill Payment",
+    "date": "2023-10-15",
+    "category": "Rent"
+  },
+  {
+    "_id": "3",
+    "transactionType": "INCOME",
+    "amount": 800.0,
+    "description": "Sale of Product B",
+    "date": "2023-02-05",
+    "category": "Sales"
+  },
+  {
+    "_id": "4",
+    "transactionType": "OUTCOME",
+    "amount": 200.0,
+    "description": "Shipping Costs",
+    "date": "2023-02-15",
+    "category": "Shipping"
+  },
+  {
+    "_id": "5",
+    "transactionType": "INCOME",
+    "amount": 750.0,
+    "description": "Payment from Client C",
+    "date": "2023-03-05",
+    "category": "Sales"
+  },
+  {
+    "_id": "6",
+    "transactionType": "OUTCOME",
+    "amount": 400.0,
+    "description": "Rent Payment",
+    "date": "2023-03-10",
+    "category": "Rent"
+  },
+  {
+    "_id": "7",
+    "transactionType": "INCOME",
+    "amount": 600.0,
+    "description": "Service Fees",
+    "date": "2023-04-12",
+    "category": "Fees"
+  },
+  {
+    "_id": "8",
+    "transactionType": "OUTCOME",
+    "amount": 350.0,
+    "description": "Office Supplies",
+    "date": "2023-04-20",
+    "category": "Supplies"
+  },
+  {
+    "_id": "9",
+    "transactionType": "INCOME",
+    "amount": 900.0,
+    "description": "Consulting Services",
+    "date": "2023-05-05",
+    "category": "Services"
+  },
+  {
+    "_id": "10",
+    "transactionType": "OUTCOME",
+    "amount": 250.0,
+    "description": "Marketing Expenses",
+    "date": "2023-05-15",
+    "category": "Marketing"
+  },
+  {
+    "_id": "11",
+    "transactionType": "INCOME",
+    "amount": 550.0,
+    "description": "Product D Sale",
+    "date": "2023-06-08",
+    "category": "Sales"
+  },
+  {
+    "_id": "12",
+    "transactionType": "OUTCOME",
+    "amount": 280.0,
+    "description": "Web Hosting Fee",
+    "date": "2023-06-20",
+    "category": "Hosting"
+  },
+  {
+    "_id": "13",
+    "transactionType": "INCOME",
+    "amount": 750.0,
+    "description": "Freelance Work",
+    "date": "2023-07-03",
+    "category": "Freelance"
+  },
+  {
+    "_id": "14",
+    "transactionType": "OUTCOME",
+    "amount": 350.0,
+    "description": "Employee Salaries",
+    "date": "2023-07-10",
+    "category": "Hosting"
+  },
+  {
+    "_id": "15",
+    "transactionType": "INCOME",
+    "amount": 720.0,
+    "description": "Product E Sale",
+    "date": "2023-08-15",
+    "category": "Sales"
+  },
+  {
+    "_id": "16",
+    "transactionType": "OUTCOME",
+    "amount": 400.0,
+    "description": "Advertisement Costs",
+    "date": "2023-08-20",
+    "category": "Hosting"
+  },
+  {
+    "_id": "17",
+    "transactionType": "INCOME",
+    "amount": 680.0,
+    "description": "Investment Dividends",
+    "date": "2023-09-10",
+    "category": "Sales"
+  },
+  {
+    "_id": "18",
+    "transactionType": "OUTCOME",
+    "amount": 320.0,
+    "description": "Legal Fees",
+    "date": "2023-09-20",
+    "category": "Services"
+  },
+  {
+    "_id": "19",
+    "transactionType": "INCOME",
+    "amount": 550.0,
+    "description": "Service Contracts",
+    "date": "2023-10-05",
+    "category": "Contracts"
+  },
+  {
+    "_id": "20",
+    "transactionType": "OUTCOME",
+    "amount": 350.0,
+    "description": "Insurance Premium",
+    "date": "2023-10-10",
+    "category": "Services"
+  }
+]

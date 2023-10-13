@@ -1,0 +1,22 @@
+.loader {
+  backdrop-filter: blur(5px);
+  background: hsla(0, 0%, 100%, .73);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_image {
+    height: auto;
+    width: 300px;
+  }
+}
+
+@media (min-width:1024px) {
+  .loader {
+    &_image {
+      width: 400px;
+    }
+  }
+
+}

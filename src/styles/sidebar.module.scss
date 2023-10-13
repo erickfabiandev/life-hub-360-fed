@@ -1,0 +1,147 @@
+@use './variables.modules.scss';
+
+.layout {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  background-color: #F2F3F4;
+
+  &_main_content {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+}
+
+.sidebar__wrapper {
+  position: relative;
+
+  [data-collapse="true"] {
+    width: 3.5rem;
+  }
+
+
+  [data-collapse="true"] .sidebar_name,
+  [data-collapse="true"] .sidebar_card,
+  [data-collapse="true"] .sidebar_logo_name {
+    display: none;
+  }
+}
+
+.sidebar {
+  width: auto;
+  height: 100%;
+  background-color: variables.$color-white;
+  padding: 0rem 1.5rem;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  overflow: hidden;
+
+  &_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+    &_avatar {
+      border-radius: 50%;
+      padding: 0.1rem;
+      border: 1px solid variables.$color-blue-2;
+    }
+
+    &_text {
+      color: variables.$color-gray;
+      font-family: variables.$poppins;
+      font-size: 12px;
+      margin: 0;
+      padding-top: 0.2rem;
+    }
+  }
+
+  &_top {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #D7DBDD;
+  }
+
+  &_logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+  }
+
+  &_logo_name {
+    font-family: variables.$sacramento;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  &_list {
+    list-style: none;
+    margin: 0em;
+    margin-block: 0em;
+    margin-inline: 0em;
+    padding-inline: 0;
+
+  }
+
+  &_singout {
+    &:hover {
+      cursor: pointer;
+      background-color: #E74C3C;
+      color: variables.$color-white;
+    }
+  }
+
+  &_link {
+    font-family: variables.$poppins;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: variables.$color-gray;
+    padding: 0.8rem 1rem;
+    display: flex;
+    background-color: #F8F9F9;
+    margin-bottom: 0.5rem;
+    border-radius: 0.8rem;
+
+    &_activate {
+      background-color: variables.$color-blue-3;
+      color: variables.$color-white;
+    }
+  }
+
+  &_icon {
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+
+  &_name {
+    margin-left: 0.5rem;
+  }
+
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  top: 4.7rem;
+  border: none;
+  background-color: variables.$color-white;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid variables.$color-border;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform: translateX(50%);
+  font-size: 1.1rem;
+  padding: 0;
+  z-index: 100;
+}
