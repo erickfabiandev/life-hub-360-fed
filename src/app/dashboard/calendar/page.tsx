@@ -1,4 +1,3 @@
-import BaseLayout from '@/components/BaseLayout';
 import CalendarPanel from '@/components/CalendarPanel';
 import { getAllEvent } from '@/service/EventService';
 import { Suspense } from 'react';
