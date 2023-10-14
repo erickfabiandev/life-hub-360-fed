@@ -1,0 +1,116 @@
+@use './variables.modules.scss';
+
+.photos {
+  font-family: variables.$sacramento;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/ds8a1x14x/image/upload/v1697275535/background/background-photos.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  p {
+    font-size: 30px;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+    span {
+      font-weight: 400;
+      word-wrap: break-word;
+      font-size: 13px;
+      color: #154360;
+      font-family: variables.$poppins;
+    }
+  }
+}
+
+.file {
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/ds8a1x14x/image/upload/v1697275757/background/background-home.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    content: ' ';
+    backdrop-filter: blur(5px);
+    background: hsla(0, 0%, 100%, .73);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  p {
+    font-size: 30px;
+    padding-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: variables.$sacramento;
+
+    span {
+      font-family: variables.$poppins;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (min-width:600px) {
+  .photos {
+    p {
+      font-size: 45px;
+      padding-left: 10rem;
+
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (min-width:1000px) {
+  .photos {
+    p {
+      font-size: 70px;
+      padding-left: 25rem;
+
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .file {
+    padding-right: 5rem;
+
+    p {
+      font-size: 80px;
+
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width:1440px) {
+  .photos {
+    p {
+      padding-left: 40rem;
+    }
+  }
+}

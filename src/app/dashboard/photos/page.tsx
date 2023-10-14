@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Style from '@/styles/comingSonn.module.scss'
 const Photos = () => {
   return (
-    <div>
-      <p style={{ textAlign: 'center', verticalAlign: 'middle' }}>
-        - Proximanente tendras un espacio destino para almacenar tus momentos  -
+    <div className={Style.photos}>
+      <p>
+        Coming soon:
+        <span>We are creating a special space for you to store your most precious moments - look forward to this new feature!</span>
       </p>
     </div>
   );

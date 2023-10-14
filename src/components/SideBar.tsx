@@ -110,7 +110,7 @@ const SideBar = () => {
         </ul>
         <p className={`${Styles.sidebar_link} ${Styles.sidebar_singout}`} onClick={async () => await signOut()} >
           <span className={Styles.sidebar_icon}>{<MdLogout />}</span>
-          <span className={Styles.sidebar_name}>{'Sing out'}</span>
+          <span className={Styles.sidebar_name}>{'Sign out'}</span>
         </p>
       </aside>
     </div>
