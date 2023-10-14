@@ -1,6 +1,7 @@
 # LifeHub360 - Front End
 
 LIFEHUB360 is your all-in-one companion for organizing and managing your daily life. This innovative app provides you with a single platform to keep your events, calendar, task lists, files, photos, and finances all in one place, with a convenient and interactive dashboard.It was developed in NextJs.
+
 Link for more details about the app's functionalities [DETAILED INFORMATION](https://www.notion.so/LIFEHUB360-dbe4df46de784c9b861a4531f9ea556b?pvs=4)
 ![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/412555f0-8f1e-4f77-ad58-133d51ebae13)
 
