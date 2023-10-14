@@ -12,6 +12,7 @@ interface SideBarContextType {
 
 const initialValue: SideBarContextType = { isCollapsed: false };
 
+
 const SideBarContext = createContext(initialValue);
 
 const SideBarProvider = ({ children }: Props) => {
