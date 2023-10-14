@@ -2,7 +2,8 @@
 
 LIFEHUB360 is your all-in-one companion for organizing and managing your daily life. This innovative app provides you with a single platform to keep your events, calendar, task lists, files, photos, and finances all in one place, with a convenient and interactive dashboard.It was developed in NextJs.
 
-Link for more details about the app's functionalities [DETAILED INFORMATION](https://www.notion.so/LIFEHUB360-dbe4df46de784c9b861a4531f9ea556b?pvs=4)
+Link for more details about the app's functionalities [DETAILED INFORMATION](https://plausible-macaw-78a.notion.site/LIFEHUB360-dbe4df46de784c9b861a4531f9ea556b?pvs=4)
+
 ![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/412555f0-8f1e-4f77-ad58-133d51ebae13)
 
 
@@ -151,6 +152,27 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 **Register**
 ![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/536c8629-ca5e-48cd-a1cb-62f66b609312)
+
+**Mobile Views**
+
+![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/d827d4d2-572f-4665-b15b-9f79d1ea4e22)
+![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/314eacc1-0422-40db-882e-c9a3d68f74f0)
+![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/24904154-bcb8-48b2-bc45-326c3238c844)
+![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/b3521a71-7325-4a49-94ad-bebbb56c1d7f)
+
+
+**Views in progress**
+
+***Photos***
+![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/cb0e93bd-92dc-4142-971c-3c9a4e496dc7)
+
+**Task / Finance**
+![image](https://github.com/erickfabiandev/life-hub-360-fed/assets/109047392/d8e481b2-dec1-4acc-aaf0-70184a7b10da)
+
+
+
+
+
 
 <a name="supp"></a>
 ## Support
