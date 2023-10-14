@@ -10,7 +10,9 @@ interface SideBarContextType {
   toggleSidebarcollapse?: () => void;
 }
 
-const SideBarContext = createContext<SideBarContextType | undefined>(undefined);
+const initialValue: SideBarContextType = { isCollapsed: false };
+
+const SideBarContext = createContext(initialValue);
 
 const SideBarProvider = ({ children }: Props) => {
   const [isCollapsed, setCollapse] = useState(false);
